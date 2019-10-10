@@ -19,10 +19,17 @@ function basics() {
 }
 
 function texts() {
+  // Header
   fill(0);
   textAlign(CENTER);
   textSize(40);
   text("Pairorg Help Bot", w/2, h/7);
+
+  // Version Tag
+  fill(0);
+  textAlign(CENTER);
+  textSize(15);
+  text("Beta 0.1", w/15, (h/15)*14);
 }
 
 function keepWindowSizeUpToDate() {
